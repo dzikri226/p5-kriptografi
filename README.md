@@ -3,6 +3,9 @@
 # 312210136
 # T.I 22 A1
 # criptografi
+
+
+ 
 def generate_matrix(kunci):
     kunci = ''.join(sorted(set(kunci), key=lambda k: kunci.index(k)))
     alfabet = "ABCDEFGHIKLMNOPQRSTUVWXYZ"
