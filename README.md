@@ -4,7 +4,7 @@
 # T.I 22 A1
 # criptografi
 
-
+```
  
 def generate_matrix(kunci):
     kunci = ''.join(sorted(set(kunci), key=lambda k: kunci.index(k)))
@@ -96,5 +96,5 @@ print(f"Teks Dekripsi 2: {decrypted_text2}")
 print(f"\nPlaintext 3: {plaintext3}")
 print(f"Teks Enkripsi 3: {ciphertext3}")
 print(f"Teks Dekripsi 3: {decrypted_text3}")
-
+```
 ![Screenshot 2024-10-15 102429](https://github.com/user-attachments/assets/113a3dc4-7a60-4817-b45b-98073eb51c18)
